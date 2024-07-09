@@ -1,0 +1,36 @@
+# package directories
+node_modules
+jspm_packages
+
+# Serverless directories
+.serverless
+
+# Ignore build directories
+dist/
+build/
+
+# Ignore temporary files
+*.tmp
+*.log
+
+# Ignore TypeScript compiled files
+*.tsbuildinfo
+
+# Ignore environment variable files
+.env
+
+# Ignore IDE and editor files
+.vscode/
+.idea/
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore Windows system files
+Thumbs.db
+ehthumbs.db
+
+# Ignore miscellaneous
+.npm/
+.cache/
+coverage/
